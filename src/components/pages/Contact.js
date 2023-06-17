@@ -22,21 +22,21 @@ const Contact = () => {
       </h3>
       <section className="contact-container">
         <div className="contact-img">
-          <img src="css/images/checkmark-map-location-icon.png" alt="Map location" />
+          <img src="./images/checkmark-map-location-icon.png" alt="Map location" />
         </div>
         <div className="contact-text font">
           <p>ADDRESS</p>
           <p>51 Fox Street <br /> Bridgeport, CT 06605</p>
         </div>
         <div className="contact-img">
-          <img src="css/images/cell-phone-icon.png" alt="Cellphone" />
+          <img src="./images/cell-phone-icon.png" alt="Cellphone" />
         </div>
         <div className="contact-text">
           <p>CALL OR TEXT</p>
           <a href="tel:1-203-801-8095">1-203-801-8095</a>
         </div>
         <div className="contact-img">
-          <img src="css/images/paper-plane-icon.png" alt="Email" />
+          <img src="./images/paper-plane-icon.png" alt="Email" />
         </div>
         <div className="contact-text font">
           <p>EMAIL</p>

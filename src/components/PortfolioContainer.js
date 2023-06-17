@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Work from './pages/Work';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -19,6 +20,9 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
+    if (currentPage === 'Work') {
+        return <Work />;
+      }
     return <Contact />;
   };
 
