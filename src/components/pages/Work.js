@@ -17,7 +17,7 @@ const Work = () => {
         <div className="gallery">
           <figure className="gallery__item gallery__item--1">
             <a
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://evening-journey-80732.herokuapp.com/"
             >
               <img
@@ -36,7 +36,7 @@ const Work = () => {
           </figure>
           <figure className="gallery__item gallery__item--3">
             <a
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://hflora2010.github.io/Horiseon-Business-Internet-Best-Practices/"
             >
               <img
@@ -48,7 +48,7 @@ const Work = () => {
           </figure>
           <figure className="gallery__item gallery__item--4">
             <a
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               href="https://jacobrubino.github.io/DadJokes/"
             >
               <img
