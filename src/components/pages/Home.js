@@ -5,7 +5,8 @@ const Home = () => {
       <div>
         <figure>
           <img className="mainimage" src="./images/br-sunset.jpeg" alt="black-rock-sunset" />
-          <h2>Hailey Flora</h2>
+          <h2>Hailey Flora</h2> <br />
+          <p>Junior Web Developer</p>
         </figure>
         <section>
           <div className="flexcontainer">

@@ -20,22 +20,22 @@ a:hover {
 }
 
 /*--Header Nav and Main Image--*/
-.header {
-  position: sticky;
+.nav {
   top: 0px;
   z-index: 1;
   padding: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: #1e1e1e;
   color: rgb(241, 241, 232);
+  width: 100%
 }
 
-.header h1 {
+.nav {
   display: inline-block;
   font-size: 20px;
-} */
+}
 
-.header nav {
+.nav-item {
   padding-top: 10px;
   margin-right: 20px;
   float: right;
@@ -43,11 +43,11 @@ a:hover {
   font-size: 20px;
 }
 
-.header nav ul {
+.nav-tabs {
   list-style-type: none;
 }
 
-.header nav ul li {
+.nav {
   display: block;
   margin-left: 25px;
   float: right;
@@ -64,10 +64,19 @@ a:hover {
 
 figure h2 { /*--got this code from https://www.w3schools.com/howto/howto_css_hero_image.asp--- sited in references*/
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 48px;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+figure p { /*--got this code from https://www.w3schools.com/howto/howto_css_hero_image.asp--- sited in references*/
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
   font-family: 'Petit Formal Script', cursive;
 }
 
@@ -102,26 +111,24 @@ figure h2 { /*--got this code from https://www.w3schools.com/howto/howto_css_her
 
 /*--About--*/
 #about {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding: 40px;
   border-bottom: 6px dotted black;
   justify-content: space-between;
-  scroll-margin-top: 70px;
 
 }
 
 #about h2 {
-  display: flex;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 5vh;
+  font-size: 130px;
   justify-content: center;
 }
 
 #about img {
-  margin: 25px;
-  height: 18%;
-  width: 20%;
+  margin-top: 17%;
+  height: 45%;
+  width: 23%;
   border: 3px solid #1e1e1e;
   border-radius: 10%;
   justify-content: center;
@@ -133,6 +140,8 @@ figure h2 { /*--got this code from https://www.w3schools.com/howto/howto_css_her
   text-align: center;
   padding: 50px 6px;
   border-radius: 10%;
+  height: 50%;
+  margin-top: 17%;
 }
 
 .last-line {
@@ -152,7 +161,7 @@ figure h2 { /*--got this code from https://www.w3schools.com/howto/howto_css_her
 #work h2 {
   float: left;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 5vh;
+  font-size: 83px;
   margin: 30px;
 }
 
@@ -210,7 +219,7 @@ figure h2 { /*--got this code from https://www.w3schools.com/howto/howto_css_her
 
 /*--Contact--*/
 #contact {
-  display: flex;
+  display: wrap;
   padding: 10px;
   scroll-margin-top: 200px;
 }
@@ -222,12 +231,12 @@ figure h2 { /*--got this code from https://www.w3schools.com/howto/howto_css_her
   justify-content: space-between;
   float: left;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 48px;
+  font-size: 85px;
   margin: 30px;
 }
 
 .contact-desc {
-  font-size: 48px;
+  font-size: 60px;
   text-align: center;
   font-family: 'Petit Formal Script', cursive;
   margin-left: 18%;

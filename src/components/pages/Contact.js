@@ -14,10 +14,12 @@ const Contact = () => {
       </h2>
       <h3 className="contact-desc">
         <strong>
+            < br /> < br />
           Don't be shy! <br />
           <br />
           <br />
           Reach out to me, I look forward to hearing from you!
+          < br /> <br /> <br />
         </strong>
       </h3>
       <section className="contact-container">
