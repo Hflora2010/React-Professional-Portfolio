@@ -8,7 +8,7 @@ I have created a Professional Porfolio Application designed with React, that des
 
 Below is a link to my deployed portfolio:
 
-<a href="https://hflora2010.github.io/Hailey-Professional-Portfolio/">Hailey Flora's Portfolio</a>
+<a href="https://hflora2010.github.io/React-Professional-Portfolio/">Hailey Flora's Portfolio</a>
 
 Below is a screenshot of the website you will access with the link above:
 
