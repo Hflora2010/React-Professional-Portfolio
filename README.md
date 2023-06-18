@@ -2,7 +2,7 @@
 
 ## Description
 
-I have created a Professional Porfolio that describes the work I have completed so far in my Web Development process. This is a site for myself, and also for future employers to evaluate and assess my work.
+I have created a Professional Porfolio Application designed with React, that describes the work I have completed so far in my Web Development process. This is a site for myself, and also for future employers to evaluate and assess my work. 
 
 ## Usage
 
@@ -15,6 +15,20 @@ Below is a screenshot of the website you will access with the link above:
 ![Alt text](./public/images/README-Screenshot.png?raw=true "Screen-Shot")
 
 ## Credits
+
+This React Application was built out with my first Professional Portfolio which can be found below: <br>
+<a href="https://hflora2010.github.io/Hailey-Professional-Portfolio/">Original Portfolio</a>
+
+This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App.</a>
+
+Code was built out with the help of:
+
+Uconn Tutor: Brandon Leek
+Studygroup Helpers: Matthew Caschetto and Kevin Molyneaux Frank Olmsted
+AskBSC Learning Assistants
+
+
+References: UCONN Module 20-React.
 
 Reference Pages: <br>
 <a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_hover"> Hover</a> <br>
