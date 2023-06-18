@@ -151,11 +151,10 @@ figure p { /*--got this code from https://www.w3schools.com/howto/howto_css_hero
 /*--Work--*/
 #work {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   padding: 10px;
   justify-content: space-between;
   border-bottom: 6px dotted;
-  scroll-margin-top: 80px;
 }
 
 #work h2 {
@@ -168,10 +167,11 @@ figure p { /*--got this code from https://www.w3schools.com/howto/howto_css_hero
 /* --Work Picture Grid--*/
 /*--Got this grid code from https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ sited in references--*/
 .grid-container {
-  width: 30%;
+  width: 10%;
   margin: 2rem auto;
-  margin: 10px;
-  padding: 10px;
+  margin-top: 40%;
+  /* padding: 100px; */
+  /* align-self: center; */
 }
 
 .gallery {
@@ -291,12 +291,6 @@ input {
 }
 
 
-.download-resume {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left: 16%;
-}
-
 .resume h2 {
     display: flex;
     flex-direction: row;
@@ -308,35 +302,65 @@ input {
     margin: 30px;
 }
 
+.resume-screenshot, .proficiences {
+  flex: 1;
+  margin: 5%; /* You can adjust this to create more space between the image and the text */
+  justify-content: space-evenly;
+}
+
 .resume p {
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 3px solid #1e1e1e;
     background-color: rgb(241, 241, 232);
     text-align: center;
     padding: 50px 6px;
     border-radius: 10%;
-    height: 30%;
-  }
+}
+
+.resume h3 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 30px;
+}
+
+.resume li {
+  list-style-type: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 #resume-container {
   display: inline;
   flex-direction: row;
-}
-
-.column {
-  flex: 50%;
-}
-
-.row {
-  display: flex;
+  justify-content: space-between;
 }
 
 .resume img {
   margin-top: 6%;
   margin-left: 60px;
-  width: 40%;
-  height: 70%;
+  width: 100%;
+  height: 80%;
+  position: static;
 }
+
+.resume {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.download-resume {
+    display: flex;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 65%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10%;
+  }
+
 
 @media (max-width: 900px) {
 
@@ -349,6 +373,12 @@ input {
       width: 100%;
       margin: 0;
       text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .resume {
+      flex-direction: column;
+    }
   }
 
 }

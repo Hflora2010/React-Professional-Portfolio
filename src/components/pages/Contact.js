@@ -29,7 +29,7 @@ export default function Contact() {
         const inputValue = target.value;
         
         if(inputValue === '') {
-            setErrorMessage('Please enter a message');
+            // setErrorMessage('Please enter a message');
             alert('Please enter a message');
         }
         
@@ -67,7 +67,7 @@ export default function Contact() {
       </h2>
       <h3 className="contact-desc">
         <strong>
-            < br /> < br />
+            < br />
           Don't be shy! <br />
           Reach out to me, I look forward to hearing from you!
           < br /> <br /> <br />
