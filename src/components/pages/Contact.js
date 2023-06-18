@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import '../../../src/App.css';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -39,7 +39,9 @@ export default function Contact() {
 
         if(!validateEmail(email)) {
             setErrorMessage('Please enter a valid email address.');
-            return;
+            alert('Please enter a valid email address.');
+        } else {
+            setErrorMessage('');
         }
 
         setName('');
@@ -69,8 +71,7 @@ export default function Contact() {
       </h3>
       <div>
       <form className="form">
-        <h3>Contact Me Here</h3>
-        <h4>Name:</h4>
+        <h2>Contact Me Here</h2>
         <input
           value={name}
           name="name"
@@ -85,7 +86,7 @@ export default function Contact() {
           type="email"
           placeholder="Email"
         />
-        <input
+        <input className="message"
           value={message}
           name="message"
           onChange={handleInputChange}

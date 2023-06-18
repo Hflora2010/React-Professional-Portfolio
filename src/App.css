@@ -224,6 +224,30 @@ figure p { /*--got this code from https://www.w3schools.com/howto/howto_css_hero
   scroll-margin-top: 200px;
 }
 
+.form {
+  display: wrap;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  height: 400px;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 auto; 
+  width:250px;
+}
+
+.form h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 48px;
+}
+
+.message {
+  height: 110px;
+}
+
 .contact-head {
   display: flex;
   flex-direction: row;
