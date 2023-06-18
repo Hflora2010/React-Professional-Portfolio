@@ -1,8 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './App.css';
 
-const Contact = () => {
-  return (
-    <section id="contact">
+import { validateEmail } from '../../utils/helpers';
+
+export default function Contact() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+
+    const handleInputChange = (e) => {
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+
+        if (inputType === "name") {
+            setName(inputValue);
+        } else if (inputValue === 'email') {
+            setEmail(inputValue);
+        } else {
+            setMessage(inputValue);
+        }
+    };
+
+    const handleMessage = (e) => {
+        const { target } = e;
+        const inputValue = target.value;
+        
+        if(inputValue === '') {
+            setErrorMessage('Please enter a message');
+        }
+        
+    };
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        if(!validateEmail(email)) {
+            setErrorMessage('Please enter a valid email address.');
+            return;
+        }
+
+        setName('');
+        setEmail('');
+        setMessage('');
+    }
+    
+    
+    return (
+        <section id="contact">
       <h2 className="contact-head">
         C <br />
         O <br />
@@ -16,12 +63,44 @@ const Contact = () => {
         <strong>
             < br /> < br />
           Don't be shy! <br />
-          <br />
-          <br />
           Reach out to me, I look forward to hearing from you!
           < br /> <br /> <br />
         </strong>
       </h3>
+      <div>
+      <form className="form">
+        <h3>Contact Me Here</h3>
+        <h4>Name:</h4>
+        <input
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="Email"
+        />
+        <input
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          onMouseOut={handleMessage}
+          type="text"
+          placeholder="Message"
+        />
+        <button type="button" onClick={handleFormSubmit}>Submit</button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    </div>   
       <section className="contact-container">
         <div className="contact-img">
           <img src="./images/checkmark-map-location-icon.png" alt="Map location" />
@@ -46,7 +125,5 @@ const Contact = () => {
         </div>
       </section>
     </section>
-  );
+  )
 };
-
-export default Contact;

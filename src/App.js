@@ -6,7 +6,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Resume from "./components/pages/Resume";
-import Work from "./components/pages/Work";
+import Portfolio from "./components/pages/Portfolio";
 
 const App = () => <PortfolioContainer />;
 <NavTabs />;
@@ -14,6 +14,6 @@ const App = () => <PortfolioContainer />;
 <Contact />;
 <Home />;
 <Resume />;
-<Work />;
+<Portfolio />;
 
 export default App;

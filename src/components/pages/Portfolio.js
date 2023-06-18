@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Work = () => {
+const Portfolio = () => {
   return (
     <section id="work">
       <h2>
@@ -64,4 +64,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Portfolio;
