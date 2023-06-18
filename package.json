@@ -1,5 +1,6 @@
 {
   "name": "react-professional-portfolio",
+  "homepage": "http://hflora2010.github.io/React-Professional-Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
