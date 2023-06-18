@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Hailey-Flora's-Professional-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+I have created a Professional Porfolio that describes the work I have completed so far in my Web Development process. This is a site for myself, and also for future employers to evaluate and assess my work.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+Below is a link to my deployed portfolio:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://hflora2010.github.io/Hailey-Professional-Portfolio/">Hailey Flora's Portfolio</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Below is a screenshot of the website you will access with the link above:
 
-### `npm test`
+![Alt text](./public/images/README-Screenshot.png?raw=true "Screen-Shot")
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Reference Pages: <br>
+<a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_hover"> Hover</a> <br>
+<a href="https://www.w3schools.com/css/css_link.asp"> CSS links </a> <br>
+<a href="https://uxwing.com/"> Symbols</a> <br>
+<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design#learn-basic-css-by-building-a-cafe-menu"> Opening link in a new Tab</a> <br>
+<a href="https://fonts.google.com/"> Downloading Fonts</a> <br>
+<a href="https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/"> Grid Gallery Code</a><br>
+<a href="https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number"> Linking Phone Number</a><br>
+<a href="https://www.mockplus.com/blog/post/contact-us-page-template"> Contact me ideas</a><br>
+<a href="https://www.w3schools.com/howto/howto_css_hero_image.asp"> Text over Hero Image</a>
