@@ -17,7 +17,7 @@ export default function Contact() {
 
         if (inputType === "name") {
             setName(inputValue);
-        } else if (inputValue === 'email') {
+        } else if (inputType === 'email') {
             setEmail(inputValue);
         } else {
             setMessage(inputValue);
@@ -30,6 +30,7 @@ export default function Contact() {
         
         if(inputValue === '') {
             setErrorMessage('Please enter a message');
+            alert('Please enter a message');
         }
         
     };
@@ -42,7 +43,10 @@ export default function Contact() {
             alert('Please enter a valid email address.');
         } else {
             setErrorMessage('');
+            
         }
+        
+        alert(`Thanks ${name} for contacting me! I will get back to you soon!`);
 
         setName('');
         setEmail('');

@@ -290,6 +290,54 @@ input {
   height: auto;
 }
 
+
+.download-resume {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 16%;
+}
+
+.resume h2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 85px;
+    margin: 30px;
+}
+
+.resume p {
+    display: block;
+    border: 3px solid #1e1e1e;
+    background-color: rgb(241, 241, 232);
+    text-align: center;
+    padding: 50px 6px;
+    border-radius: 10%;
+    height: 30%;
+  }
+
+#resume-container {
+  display: inline;
+  flex-direction: row;
+}
+
+.column {
+  flex: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.resume img {
+  margin-top: 6%;
+  margin-left: 60px;
+  width: 40%;
+  height: 70%;
+}
+
 @media (max-width: 900px) {
 
   body, figure h2,
